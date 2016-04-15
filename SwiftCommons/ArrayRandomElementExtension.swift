@@ -9,7 +9,7 @@
 import Foundation
 
 public extension Array {
-    func randomElement() -> Generator.Element {
+    public func randomElement() -> Generator.Element {
         return self[Int(arc4random_uniform(UInt32(self.count)))]
     }
 }

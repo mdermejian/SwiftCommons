@@ -12,7 +12,7 @@ public class BezierPathsView: UIView {
 
     private var bezierPaths = [String:UIBezierPath]()
     
-    func setPath(path: UIBezierPath?, named name: String){
+    public func setPath(path: UIBezierPath?, named name: String){
         bezierPaths[name] = path
         setNeedsDisplay()
     }

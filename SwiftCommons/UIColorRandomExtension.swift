@@ -9,7 +9,7 @@
 import UIKit
 
 public extension UIColor {
-    class var random: UIColor {
+    public class var random: UIColor {
         switch arc4random() % 5 {
         case 0: return UIColor.greenColor()
         case 1: return UIColor.blueColor()
