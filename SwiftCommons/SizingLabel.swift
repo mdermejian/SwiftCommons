@@ -31,7 +31,7 @@ import UIKit
 
 public class SizingLabel: UILabel {
   
-  override func layoutSubviews() {
+  override public func layoutSubviews() {
     super.layoutSubviews()
     preferredMaxLayoutWidth = bounds.width - 1
   }
