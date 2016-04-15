@@ -26,7 +26,6 @@
 		801802FF1CC0D37A002165DF /* CustomStringConvertibleProtocolExtension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802ED1CC0D2D2002165DF /* CustomStringConvertibleProtocolExtension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		801803001CC0D37A002165DF /* DegreesToRadians.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802EE1CC0D2D2002165DF /* DegreesToRadians.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		801803011CC0D37A002165DF /* SizingLabel.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802EF1CC0D2D2002165DF /* SizingLabel.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		801803031CC0D4D9002165DF /* SwiftCommons.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 801803021CC0D4D9002165DF /* SwiftCommons.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +41,6 @@
 		801802ED1CC0D2D2002165DF /* CustomStringConvertibleProtocolExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStringConvertibleProtocolExtension.swift; sourceTree = "<group>"; };
 		801802EE1CC0D2D2002165DF /* DegreesToRadians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DegreesToRadians.swift; sourceTree = "<group>"; };
 		801802EF1CC0D2D2002165DF /* SizingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizingLabel.swift; sourceTree = "<group>"; };
-		801803021CC0D4D9002165DF /* SwiftCommons.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftCommons.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +84,6 @@
 				801802EE1CC0D2D2002165DF /* DegreesToRadians.swift */,
 				801802EF1CC0D2D2002165DF /* SizingLabel.swift */,
 				801802E11CC0D274002165DF /* Info.plist */,
-				801803021CC0D4D9002165DF /* SwiftCommons.podspec */,
 			);
 			path = SwiftCommons;
 			sourceTree = "<group>";
@@ -168,7 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				801803031CC0D4D9002165DF /* SwiftCommons.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
