@@ -28,6 +28,7 @@
 		801803011CC0D37A002165DF /* SizingLabel.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802EF1CC0D2D2002165DF /* SizingLabel.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		8034F7131CC7C3000024C5BA /* JSONAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034F7121CC7C3000024C5BA /* JSONAble.swift */; };
 		8034F7381CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034F7371CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift */; };
+		8034F7AF1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034F7AE1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		801802EF1CC0D2D2002165DF /* SizingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizingLabel.swift; sourceTree = "<group>"; };
 		8034F7121CC7C3000024C5BA /* JSONAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONAble.swift; sourceTree = "<group>"; };
 		8034F7371CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorFromRGBExtension.swift; sourceTree = "<group>"; };
+		8034F7AE1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewFromURLExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				801802E71CC0D2D2002165DF /* BezierPathsView.swift */,
 				801802E81CC0D2D2002165DF /* UIColorRandomExtension.swift */,
 				8034F7371CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift */,
+				8034F7AE1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift */,
 				801802E91CC0D2D2002165DF /* ArrayRandomElementExtension.swift */,
 				801802EA1CC0D2D2002165DF /* UsefulFunctions.swift */,
 				801802EB1CC0D2D2002165DF /* CGFloatRandomExtension.swift */,
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8034F7AF1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift in Sources */,
 				801802F21CC0D2D2002165DF /* ArrayRandomElementExtension.swift in Sources */,
 				8034F7381CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift in Sources */,
 				801802F41CC0D2D2002165DF /* CGFloatRandomExtension.swift in Sources */,
