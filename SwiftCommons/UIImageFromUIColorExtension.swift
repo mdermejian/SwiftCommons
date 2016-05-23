@@ -9,7 +9,7 @@
 import Foundation
 
 public extension UIImage {
-	private func imageWithColor(color: UIColor) -> UIImage {
+	public static func imageWithColor(color: UIColor) -> UIImage {
 		let rect = CGRectMake(0.0, 0.0, 1.0, 1.0)
 		UIGraphicsBeginImageContext(rect.size)
 		let context = UIGraphicsGetCurrentContext()
