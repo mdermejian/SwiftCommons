@@ -30,6 +30,7 @@
 		8034F7381CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034F7371CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift */; };
 		8034F7AF1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034F7AE1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift */; };
 		80E1AB071CF34A6C00CE5063 /* UIImageFromUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E1AB061CF34A6C00CE5063 /* UIImageFromUIColorExtension.swift */; };
+		80FEFF931D5DDE9E00AF8E09 /* IntToBoolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEFF921D5DDE9E00AF8E09 /* IntToBoolExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		8034F7371CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorFromRGBExtension.swift; sourceTree = "<group>"; };
 		8034F7AE1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewFromURLExtension.swift; sourceTree = "<group>"; };
 		80E1AB061CF34A6C00CE5063 /* UIImageFromUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageFromUIColorExtension.swift; sourceTree = "<group>"; };
+		80FEFF921D5DDE9E00AF8E09 /* IntToBoolExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntToBoolExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				801802E71CC0D2D2002165DF /* BezierPathsView.swift */,
 				801802E81CC0D2D2002165DF /* UIColorRandomExtension.swift */,
 				8034F7371CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift */,
+				80FEFF921D5DDE9E00AF8E09 /* IntToBoolExtension.swift */,
 				8034F7AE1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift */,
 				80E1AB061CF34A6C00CE5063 /* UIImageFromUIColorExtension.swift */,
 				801802E91CC0D2D2002165DF /* ArrayRandomElementExtension.swift */,
@@ -199,6 +202,7 @@
 				8034F7131CC7C3000024C5BA /* JSONAble.swift in Sources */,
 				801802F11CC0D2D2002165DF /* UIColorRandomExtension.swift in Sources */,
 				80E1AB071CF34A6C00CE5063 /* UIImageFromUIColorExtension.swift in Sources */,
+				80FEFF931D5DDE9E00AF8E09 /* IntToBoolExtension.swift in Sources */,
 				801802F01CC0D2D2002165DF /* BezierPathsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
