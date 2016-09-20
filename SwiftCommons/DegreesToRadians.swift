@@ -22,12 +22,12 @@
 
 import UIKit
 
-let π = CGFloat(M_PI)
+let π = CGFloat.pi // CGFloat(M_PI)
 
-public func DegreesToRadians (value:CGFloat) -> CGFloat {
-    return value * π / 180.0
+public func radians (fromDegrees degrees:CGFloat) -> CGFloat {
+	return degrees * π / 180.0
 }
 
-public func RadiansToDegrees (value:CGFloat) -> CGFloat {
-    return value * 180.0 / π
+public func degrees (fromRadians radians:CGFloat) -> CGFloat {
+	return radians * 180.0 / π
 }

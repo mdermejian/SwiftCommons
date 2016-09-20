@@ -9,7 +9,7 @@
 import UIKit
 
 public extension CGFloat{
-    public static func random(max: Int) -> CGFloat {
-        return CGFloat(arc4random() % UInt32(max))
-    }
+	public static func random(_ max: Int) -> CGFloat {
+		return CGFloat(arc4random() % UInt32(max))
+	}
 }

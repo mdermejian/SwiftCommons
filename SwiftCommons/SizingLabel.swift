@@ -29,11 +29,11 @@
 
 import UIKit
 
-public class SizingLabel: UILabel {
-  
-  override public func layoutSubviews() {
-    super.layoutSubviews()
-    preferredMaxLayoutWidth = bounds.width - 1
-  }
-
+open class SizingLabel: UILabel {
+	
+	override open func layoutSubviews() {
+		super.layoutSubviews()
+		preferredMaxLayoutWidth = bounds.width - 1
+	}
+	
 }

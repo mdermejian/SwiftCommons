@@ -8,18 +8,18 @@
 
 import UIKit
 
-public class BezierPathsView: UIView {
-
-    private var bezierPaths = [String:UIBezierPath]()
-    
-    public func setPath(path: UIBezierPath?, named name: String){
-        bezierPaths[name] = path
-        setNeedsDisplay()
-    }
-    
-    override public func drawRect(rect: CGRect) {
-        for (_, path) in bezierPaths{
-            path.stroke()
-        }
-    }
+open class BezierPathsView: UIView {
+	
+	private var bezierPaths = [String:UIBezierPath]()
+	
+	open func setPath(_ path: UIBezierPath?, named name: String){
+		bezierPaths[name] = path
+		setNeedsDisplay()
+	}
+	
+	override open func draw(_ rect: CGRect) {
+		for (_, path) in bezierPaths{
+			path.stroke()
+		}
+	}
 }

@@ -11,7 +11,7 @@ import Foundation
 public extension CustomStringConvertible {
 	
 	var description : String {
-		var description = "!***** \(self.dynamicType) *****!\n"
+		var description = "!***** \(type(of: self)) *****!\n"
 		let selfMirror = Mirror(reflecting: self)
 		for child in selfMirror.children {
 			if let propertyName = child.label {

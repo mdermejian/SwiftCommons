@@ -10,23 +10,23 @@ import Foundation
 
 public extension UIImageView {
 	
-	public func imageFromUrlString(urlString: String, placeholderImage: UIImage?) {
+	public func image(fromUrlString urlString: String, placeholderImage: UIImage?) {
 		
 		image = placeholderImage
 		if let url = NSURL(string: urlString) {
-			imageFromUrl(url, placeholderImage: placeholderImage)
+			image(fromUrl: url, placeholderImage: placeholderImage)
 		}
 	}
 	
-	public func imageFromUrl(url: NSURL, placeholderImage: UIImage?) {
+	public func image(fromUrl url: NSURL, placeholderImage: UIImage?) {
 		
 		image = placeholderImage
 		
-		let task = NSURLSession.sharedSession().dataTaskWithURL(url) {
+		let task = URLSession.shared.dataTask(with: url as URL) {
 			(data, response, error) in
-			dispatch_async(dispatch_get_main_queue(), {
+			DispatchQueue.main.async {
 				self.image = UIImage(data: data!)
-			})
+			}
 		}
 		task.resume()
 	}

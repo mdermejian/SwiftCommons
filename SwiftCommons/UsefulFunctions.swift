@@ -9,10 +9,12 @@
 import UIKit
 
 
-public func delay(seconds seconds: Double, completion:()->()) {
-    let popTime = dispatch_time(DISPATCH_TIME_NOW, Int64( Double(NSEC_PER_SEC) * seconds ))
-    
-    dispatch_after(popTime, dispatch_get_main_queue()) {
-        completion()
-    }
+public func delay(seconds: Double, completion: @escaping ()->()) {
+//    let popTime = dispatch_time(DispatchTime.now, Int64( Double(NSEC_PER_SEC) * seconds ))
+	
+	let popTime = DispatchTime.now() + Double (Int64( Double(NSEC_PER_SEC) * seconds ))
+	
+	DispatchQueue.main.asyncAfter(deadline: popTime) { 
+		completion()
+	}
 }

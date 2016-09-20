@@ -9,7 +9,7 @@
 import UIKit
 
 public extension UIImage {
-    var aspectRatio: CGFloat {
-        return size.height != 0 ? size.width / size.height : 0
-    }
+	var aspectRatio: CGFloat {
+		return size.height != 0 ? size.width / size.height : 0
+	}
 }
