@@ -29,6 +29,7 @@
 		8034F7131CC7C3000024C5BA /* JSONAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034F7121CC7C3000024C5BA /* JSONAble.swift */; };
 		8034F7381CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034F7371CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift */; };
 		8034F7AF1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034F7AE1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift */; };
+		806294711DDF1C2E00FC69AA /* SegueHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806294701DDF1C2E00FC69AA /* SegueHandlerProtocol.swift */; };
 		80E1AB071CF34A6C00CE5063 /* UIImageFromUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E1AB061CF34A6C00CE5063 /* UIImageFromUIColorExtension.swift */; };
 		80FEFF931D5DDE9E00AF8E09 /* IntToBoolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEFF921D5DDE9E00AF8E09 /* IntToBoolExtension.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +50,7 @@
 		8034F7121CC7C3000024C5BA /* JSONAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONAble.swift; sourceTree = "<group>"; };
 		8034F7371CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorFromRGBExtension.swift; sourceTree = "<group>"; };
 		8034F7AE1CDCB7C80024C5BA /* UIImageViewFromURLExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewFromURLExtension.swift; sourceTree = "<group>"; };
+		806294701DDF1C2E00FC69AA /* SegueHandlerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueHandlerProtocol.swift; sourceTree = "<group>"; };
 		80E1AB061CF34A6C00CE5063 /* UIImageFromUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageFromUIColorExtension.swift; sourceTree = "<group>"; };
 		80FEFF921D5DDE9E00AF8E09 /* IntToBoolExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntToBoolExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 				801802EB1CC0D2D2002165DF /* CGFloatRandomExtension.swift */,
 				801802EC1CC0D2D2002165DF /* UIImageAspectRatioExtension.swift */,
 				801802ED1CC0D2D2002165DF /* CustomStringConvertibleProtocolExtension.swift */,
+				806294701DDF1C2E00FC69AA /* SegueHandlerProtocol.swift */,
 				8034F7121CC7C3000024C5BA /* JSONAble.swift */,
 				801802EE1CC0D2D2002165DF /* DegreesToRadians.swift */,
 				801802EF1CC0D2D2002165DF /* SizingLabel.swift */,
@@ -202,6 +205,7 @@
 				801802F71CC0D2D2002165DF /* DegreesToRadians.swift in Sources */,
 				8034F7131CC7C3000024C5BA /* JSONAble.swift in Sources */,
 				801802F11CC0D2D2002165DF /* UIColorRandomExtension.swift in Sources */,
+				806294711DDF1C2E00FC69AA /* SegueHandlerProtocol.swift in Sources */,
 				80E1AB071CF34A6C00CE5063 /* UIImageFromUIColorExtension.swift in Sources */,
 				80FEFF931D5DDE9E00AF8E09 /* IntToBoolExtension.swift in Sources */,
 				801802F01CC0D2D2002165DF /* BezierPathsView.swift in Sources */,
