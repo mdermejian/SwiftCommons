@@ -21,7 +21,7 @@ public extension UIColor {
 	}
 	
 	public class var random2: UIColor {
-		let hue:CGFloat = CGFloat(Float(arc4random()) / Float(UINT32_MAX))
+		let hue = CGFloat(Float(arc4random()) / Float(UINT32_MAX))
 		return UIColor(hue: hue, saturation: 0.8, brightness: 1.0, alpha: 0.8)
 	}
 
