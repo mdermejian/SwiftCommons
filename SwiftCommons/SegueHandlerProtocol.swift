@@ -20,7 +20,7 @@ extension SegueHandler where Self: UIViewController, ViewControllerSegue.RawValu
 	func segueIdentifierCase(for segue: UIStoryboardSegue) -> ViewControllerSegue {
 		guard let identifier = segue.identifier,
 			let identifierCase = ViewControllerSegue(rawValue: identifier) else {
-				fatalError("Could not map segue identifier -- \(segue.identifier) -- to segue case")
+				fatalError("Could not map segue identifier -- \(segue.identifier!) -- to segue case")
 		}
 		return identifierCase
 	}

@@ -15,7 +15,6 @@
 		801802F41CC0D2D2002165DF /* CGFloatRandomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801802EB1CC0D2D2002165DF /* CGFloatRandomExtension.swift */; };
 		801802F51CC0D2D2002165DF /* UIImageAspectRatioExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801802EC1CC0D2D2002165DF /* UIImageAspectRatioExtension.swift */; };
 		801802F61CC0D2D2002165DF /* CustomStringConvertibleProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801802ED1CC0D2D2002165DF /* CustomStringConvertibleProtocolExtension.swift */; };
-		801802F71CC0D2D2002165DF /* DegreesToRadians.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801802EE1CC0D2D2002165DF /* DegreesToRadians.swift */; };
 		801802F81CC0D2D2002165DF /* SizingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801802EF1CC0D2D2002165DF /* SizingLabel.swift */; };
 		801802F91CC0D37A002165DF /* BezierPathsView.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802E71CC0D2D2002165DF /* BezierPathsView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		801802FA1CC0D37A002165DF /* UIColorRandomExtension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802E81CC0D2D2002165DF /* UIColorRandomExtension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,7 +23,6 @@
 		801802FD1CC0D37A002165DF /* CGFloatRandomExtension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802EB1CC0D2D2002165DF /* CGFloatRandomExtension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		801802FE1CC0D37A002165DF /* UIImageAspectRatioExtension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802EC1CC0D2D2002165DF /* UIImageAspectRatioExtension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		801802FF1CC0D37A002165DF /* CustomStringConvertibleProtocolExtension.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802ED1CC0D2D2002165DF /* CustomStringConvertibleProtocolExtension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		801803001CC0D37A002165DF /* DegreesToRadians.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802EE1CC0D2D2002165DF /* DegreesToRadians.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		801803011CC0D37A002165DF /* SizingLabel.swift in Headers */ = {isa = PBXBuildFile; fileRef = 801802EF1CC0D2D2002165DF /* SizingLabel.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		8034F7131CC7C3000024C5BA /* JSONAble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034F7121CC7C3000024C5BA /* JSONAble.swift */; };
 		8034F7381CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8034F7371CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift */; };
@@ -45,7 +43,6 @@
 		801802EB1CC0D2D2002165DF /* CGFloatRandomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFloatRandomExtension.swift; sourceTree = "<group>"; };
 		801802EC1CC0D2D2002165DF /* UIImageAspectRatioExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageAspectRatioExtension.swift; sourceTree = "<group>"; };
 		801802ED1CC0D2D2002165DF /* CustomStringConvertibleProtocolExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomStringConvertibleProtocolExtension.swift; sourceTree = "<group>"; };
-		801802EE1CC0D2D2002165DF /* DegreesToRadians.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DegreesToRadians.swift; sourceTree = "<group>"; };
 		801802EF1CC0D2D2002165DF /* SizingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizingLabel.swift; sourceTree = "<group>"; };
 		8034F7121CC7C3000024C5BA /* JSONAble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONAble.swift; sourceTree = "<group>"; };
 		8034F7371CD0A5FD0024C5BA /* UIColorFromRGBExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorFromRGBExtension.swift; sourceTree = "<group>"; };
@@ -99,7 +96,6 @@
 				801802ED1CC0D2D2002165DF /* CustomStringConvertibleProtocolExtension.swift */,
 				806294701DDF1C2E00FC69AA /* SegueHandlerProtocol.swift */,
 				8034F7121CC7C3000024C5BA /* JSONAble.swift */,
-				801802EE1CC0D2D2002165DF /* DegreesToRadians.swift */,
 				801802EF1CC0D2D2002165DF /* SizingLabel.swift */,
 				801802E11CC0D274002165DF /* Info.plist */,
 			);
@@ -121,7 +117,6 @@
 				801802FD1CC0D37A002165DF /* CGFloatRandomExtension.swift in Headers */,
 				801802FE1CC0D37A002165DF /* UIImageAspectRatioExtension.swift in Headers */,
 				801802FF1CC0D37A002165DF /* CustomStringConvertibleProtocolExtension.swift in Headers */,
-				801803001CC0D37A002165DF /* DegreesToRadians.swift in Headers */,
 				801803011CC0D37A002165DF /* SizingLabel.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,7 +197,6 @@
 				801802F81CC0D2D2002165DF /* SizingLabel.swift in Sources */,
 				801802F61CC0D2D2002165DF /* CustomStringConvertibleProtocolExtension.swift in Sources */,
 				801802F51CC0D2D2002165DF /* UIImageAspectRatioExtension.swift in Sources */,
-				801802F71CC0D2D2002165DF /* DegreesToRadians.swift in Sources */,
 				8034F7131CC7C3000024C5BA /* JSONAble.swift in Sources */,
 				801802F11CC0D2D2002165DF /* UIColorRandomExtension.swift in Sources */,
 				806294711DDF1C2E00FC69AA /* SegueHandlerProtocol.swift in Sources */,

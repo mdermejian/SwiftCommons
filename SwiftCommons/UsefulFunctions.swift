@@ -17,3 +17,13 @@ public func delay(seconds: Double, completion: @escaping ()->()) {
 		completion()
 	}
 }
+
+public let π = CGFloat.pi
+
+public func radians (fromDegrees degrees:CGFloat) -> CGFloat {
+	return degrees * π / 180.0
+}
+
+public func degrees (fromRadians radians:CGFloat) -> CGFloat {
+	return radians * 180.0 / π
+}
